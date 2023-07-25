@@ -1,0 +1,177 @@
+/* css for main page container */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ctn1 {
+    padding: unset;
+    height: 543px;
+    margin: 35px auto;
+    background-color: beige;
+    /* overflow: hidden; */
+    
+}  
+
+/* css for navbar */
+
+.nav{
+    margin: unset;
+    padding: unset;
+}
+
+.navbar{
+    padding: 0;
+    margin: unset;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.navbar-brand{
+    
+    font-weight: bolder;
+    color: white;
+    margin-left: 7px;
+   
+}
+
+.addbtn{
+    margin-bottom: 2px;
+    padding: 0;
+}
+
+.btn{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+
+.ctn1{
+    width: 30%;
+}
+
+
+
+.product{
+    display: flex;
+}
+
+.image{
+    height: 50px;
+    width: 50px;
+}
+
+.play{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+/* css for the side bar */
+.sidebar{
+    padding: 0;
+    margin-left: 2px;
+    background-color: #131324;
+    /* height: 67.4vh; */
+    height: 80vh;
+} 
+
+.btn{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+@media (max-width: 988px){
+    .sidebar{
+        height: 400%;
+    }
+
+}
+@media (max-width: 344px){
+    .sidebar{
+        height: 350%;
+    }
+    
+}
+
+.con-list{
+    display: grid;
+    grid-template-rows: 80% 20%;
+    overflow: auto;
+    overflow-x: hidden;
+    max-height: 460px;
+    scrollbar-width: thin;
+    scrollbar-color: black beige;
+}
+
+.chatbody{
+    height: 70vh;
+    background-color: white;
+}
+
+.chatinput{
+    display: flex;
+    justify-content: center;
+    height: 8vh;
+    background-color: yellow;
+}
+
+.listbody{
+    border: 2px solid red;
+}
+
+
+.delete-icon {
+    background: transparent;
+  }
+
+  
+  
+
+.table-row{
+    border-bottom: 1px solid #090909;
+}
+
+.logout{
+    width: 110px;
+}
+
+.table-row{
+    text-align: center;
+}
+
+.contacts{
+    margin: unset;
+    background-color: transparent;
+    height: 60vh;
+    text-align: center;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: aqua #131324;
+    
+}
+.contacts h4{
+    color: aliceblue;
+}
+
+.single_contact{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    background-color: aqua;
+    height: 10vh;
+    margin: 2px 0;
+    align-items: center;
+    
+}
+.single_contact> h6{
+    color: balck;
+    text-decoration: none;
+}
+
+.single_contact> img{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    margin-top: 3px;
+}

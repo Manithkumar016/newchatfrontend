@@ -1,0 +1,74 @@
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.btna{
+    margin-left: unset;
+    margin-right: 25px;
+}
+
+
+.btnc{
+    margin-left: 2px;
+} 
+.parent {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 400px;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    border: 3px solid aqua;
+    background-color: black;
+    margin: 25px auto;
+    border-radius: 15px; 
+    z-index: 10;
+    
+  }
+
+  .title{
+    text-align: center;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    color: aqua;
+  }
+  
+  .child {
+    flex: 1;
+    width: 80%; /* Each child div will take up equal space initially */
+  }
+  
+  .child:first-child{
+    flex: 0.1;
+     /* Set the desired ratio for the first and last child divs */
+  }
+  
+  .child:nth-child(2) {
+    flex: 0.9; /* Set the desired ratio for the second child div */
+  }
+
+  .addlist input {
+    background-color: aqua;
+    padding: 0.2rem;
+    border: 0.1rem solid #c2b1f2;
+    border-radius: 0.4rem;
+    color: rgb(5, 5, 5);
+    width: 100%;
+    font-size: 1rem;
+    &:focus {
+      border: 0.1rem solid #997af0;
+      outline: none;
+    }
+}
+
+.addlist input::placeholder {
+    color: #000000; /* Replace with the desired color */
+  }
+  
